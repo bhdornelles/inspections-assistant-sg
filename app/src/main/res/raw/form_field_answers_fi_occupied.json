@@ -1,0 +1,217 @@
+{
+  "version": 4,
+  "comment": "FI OCCUPIED (group) mappings — tap-only MVP. Regras de texto/number/date só quando existirem opções tocáveis na tela.",
+  "mappings": [
+    {
+      "id": "fi_roof_conditions_open",
+      "priority": 28,
+      "matchAll": ["roof conditions exist"],
+      "clickText": "Select"
+    },
+    {
+      "id": "fi_roof_conditions_choose_none",
+      "priority": 28,
+      "matchAll": ["roof conditions exist", "apply"],
+      "clickText": "None"
+    },
+    {
+      "id": "fi_yard_conditions_open",
+      "priority": 28,
+      "matchAll": ["lawn/yard conditions exist"],
+      "clickText": "Select"
+    },
+    {
+      "id": "fi_yard_conditions_choose_none",
+      "priority": 28,
+      "matchAll": ["lawn/yard conditions exist", "apply"],
+      "clickText": "None"
+    },
+    {
+      "id": "fi_uad_condition_rating_open",
+      "priority": 28,
+      "matchAll": ["condition rating"],
+      "clickText": "Select"
+    },
+    {
+      "id": "fi_uad_condition_rating_choose_c1",
+      "priority": 28,
+      "matchAll": ["condition rating", "apply"],
+      "clickText": "C1 Great Condition"
+    },
+    {
+      "id": "fi_change_of_address",
+      "priority": 30,
+      "matchAll": ["change of address"],
+      "clickText": "No"
+    },
+    {
+      "id": "fi_able_to_complete",
+      "priority": 30,
+      "matchAll": ["able to complete this inspection"],
+      "clickText": "Yes"
+    },
+    {
+      "id": "fi_controlled_access",
+      "priority": 30,
+      "matchAll": ["controlled access area"],
+      "clickText": "No"
+    },
+    {
+      "id": "fi_number_of_units",
+      "priority": 24,
+      "matchAll": ["number of units"],
+      "clickText": "1",
+      "shortOptionExactLine": true
+    },
+    {
+      "id": "door_answered",
+      "priority": 30,
+      "matchAll": ["did someone answer the door"],
+      "clickText": "Yes"
+    },
+    {
+      "id": "confirm_occupied_strict",
+      "priority": 30,
+      "matchAll": ["confirm this property is occupied", "override"],
+      "clickText": "Occupied"
+    },
+    {
+      "id": "occupancy_status",
+      "priority": 29,
+      "matchAll": ["occupancy status"],
+      "clickText": "Occupied"
+    },
+    {
+      "id": "occupied_by",
+      "priority": 15,
+      "matchAll": ["occupied by"],
+      "clickText": "Unknown"
+    },
+    {
+      "id": "verified_by",
+      "priority": 14,
+      "matchAll": ["verified by"],
+      "clickText": "Direct Contact"
+    },
+    {
+      "id": "citations",
+      "priority": 16,
+      "matchAll": ["citations, violations or notices posted"],
+      "clickText": "No"
+    },
+    {
+      "id": "neighborhood_condition",
+      "priority": 16,
+      "matchAll": ["neighborhood condition"],
+      "clickText": "Stable"
+    },
+    {
+      "id": "high_vandalism",
+      "priority": 16,
+      "matchAll": ["high vandalism area"],
+      "clickText": "No"
+    },
+    {
+      "id": "comparable_neighborhood",
+      "priority": 16,
+      "matchAll": ["comparable to others in the neighborhood"],
+      "clickText": "Yes"
+    },
+    {
+      "id": "fence",
+      "priority": 16,
+      "matchAll": ["fence on the property"],
+      "clickText": "No"
+    },
+    {
+      "id": "for_sale_by",
+      "priority": 12,
+      "matchAll": ["for sale by", "not for sale"],
+      "clickText": "Not For Sale"
+    },
+    {
+      "id": "roof_conditions",
+      "priority": 16,
+      "matchAll": ["roof conditions"],
+      "clickText": "None"
+    },
+    {
+      "id": "outbuilding_type",
+      "priority": 16,
+      "matchAll": ["outbuilding type"],
+      "clickText": "None"
+    },
+    {
+      "id": "pool_present",
+      "priority": 16,
+      "matchAll": ["pool present"],
+      "clickText": "No"
+    },
+    {
+      "id": "hot_tub_present",
+      "priority": 16,
+      "matchAll": ["hot tub present"],
+      "clickText": "No"
+    },
+    {
+      "id": "grass_at_property",
+      "priority": 16,
+      "matchAll": ["grass at property"],
+      "clickText": "Yes"
+    },
+    {
+      "id": "trees_shrubs_damage",
+      "priority": 16,
+      "matchAll": ["trees", "shrubs", "causing damage"],
+      "clickText": "No"
+    },
+    {
+      "id": "yard_conditions",
+      "priority": 16,
+      "matchAll": ["lawn", "yard conditions"],
+      "clickText": "None"
+    },
+    {
+      "id": "electric_on",
+      "priority": 16,
+      "matchAll": ["electric on"],
+      "clickText": "Unknown"
+    },
+    {
+      "id": "gas_on",
+      "priority": 16,
+      "matchAll": ["gas on"],
+      "clickText": "Unknown"
+    },
+    {
+      "id": "water_on",
+      "priority": 16,
+      "matchAll": ["water on"],
+      "clickText": "Unknown"
+    },
+    {
+      "id": "exterior_conditions",
+      "priority": 16,
+      "matchAll": ["exterior conditions"],
+      "clickText": "None"
+    },
+    {
+      "id": "exterior_condition_good",
+      "priority": 16,
+      "matchAll": ["exterior condition"],
+      "clickText": "Good"
+    },
+    {
+      "id": "condition_rating_c1",
+      "priority": 16,
+      "matchAll": ["condition rating"],
+      "clickText": "C1 Great Condition"
+    },
+    {
+      "id": "emergency_conditions",
+      "priority": 16,
+      "matchAll": ["emergency conditions", "departure"],
+      "clickText": "No"
+    }
+  ]
+}

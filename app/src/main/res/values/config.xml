@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ai_inspection_endpoint é gerada no app/build.gradle.kts (resValue). -->
+    <!-- Mesmo token que PROXY_BEARER_TOKEN no servidor (preenchido no build de release, não no repositório). Vazio = sem header. -->
+    <string name="ai_inspection_bearer" translatable="false" />
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Garante HTTP p/ 10.0.2.2, IP local e 127.0.0.1 (adb reverse) no debug. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

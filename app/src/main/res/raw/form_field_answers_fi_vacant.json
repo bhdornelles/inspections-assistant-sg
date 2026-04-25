@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "comment": "FI VACANT — regras específicas; repita o padrão de form_field_answers_fi_occupied.json. Enquanto vazio, o assistente recorre a heurística/visão/IA para FI Vago.",
+  "mappings": []
+}

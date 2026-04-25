@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "comment": "E26RNN mappings (tap-only MVP).",
+  "mappings": [
+    {
+      "id": "e26rnn_interviewed",
+      "priority": 30,
+      "matchAll": ["interview", "someone interviewed"],
+      "clickText": "No"
+    },
+    {
+      "id": "e26rnn_number_of_units",
+      "priority": 30,
+      "matchAll": ["number of units"],
+      "clickText": "1",
+      "shortOptionExactLine": true
+    },
+    {
+      "id": "e26rnn_occupancy_type",
+      "priority": 30,
+      "matchAll": ["occupancy type"],
+      "clickText": "Unknown"
+    },
+    {
+      "id": "e26rnn_manufactured",
+      "priority": 30,
+      "matchAll": ["manufactured"],
+      "clickText": "No"
+    },
+    {
+      "id": "e26rnn_mobile_home",
+      "priority": 30,
+      "matchAll": ["mobile home"],
+      "clickText": "No"
+    },
+    {
+      "id": "e26rnn_foundation_type",
+      "priority": 30,
+      "matchAll": ["foundation type"],
+      "clickText": "Concrete Slab"
+    },
+    {
+      "id": "e26rnn_number_of_stories",
+      "priority": 30,
+      "matchAll": ["number of stories"],
+      "clickText": "1 Story"
+    },
+    {
+      "id": "e26rnn_roof_shape",
+      "priority": 30,
+      "matchAll": ["roof shape"],
+      "clickText": "Complex/Custom"
+    },
+    {
+      "id": "e26rnn_roof_type",
+      "priority": 30,
+      "matchAll": ["roof type"],
+      "clickText": "Wood Shingles/Shakes Deco Ptrn"
+    },
+    {
+      "id": "e26rnn_garage_type",
+      "priority": 30,
+      "matchAll": ["garage type"],
+      "clickText": "None"
+    },
+    {
+      "id": "e26rnn_solar_panels",
+      "priority": 30,
+      "matchAll": ["solar panels"],
+      "clickText": "No"
+    },
+    {
+      "id": "e26rnn_pool_swimming",
+      "priority": 30,
+      "matchAll": ["swimming pool"],
+      "clickText": "No"
+    },
+    {
+      "id": "e26rnn_pool_short",
+      "priority": 29,
+      "matchAll": ["pool"],
+      "clickText": "No"
+    },
+    {
+      "id": "e26rnn_trampoline",
+      "priority": 30,
+      "matchAll": ["trampoline"],
+      "clickText": "No"
+    }
+  ]
+}
+
